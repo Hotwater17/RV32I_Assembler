@@ -1,0 +1,7 @@
+.START
+
+
+ADDI x1, 6;
+SUB x2, x1;
+
+.STOP
