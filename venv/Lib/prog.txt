@@ -1,7 +1,21 @@
-.START
+.START;
+asd
+a
 
+ADDI x0, 0;
+ADDI x1, 6; I-type
+SUB x2, x1; R-type
+SB x3, x1, 2805; S-type
+LB x1, x4, 3; L-type
+LUI x5, 234; U-type
+JALR x2, x7, 523; J-type
+JAL x3, 2805; J-type
+BEQ x3, x2, 2805; B-type
+FENCE;
+ECALL;
+EBREAK;
 
-ADDI x1, 6;
-SUB x2, x1;
 
 .STOP
+
+dasdasd
